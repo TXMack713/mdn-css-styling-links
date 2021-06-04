@@ -20,7 +20,8 @@ body {
   background: paleturquoise;
 }
 
-header.main {
+header.main,
+section h2 {
   color: chocolate;
 }
 
