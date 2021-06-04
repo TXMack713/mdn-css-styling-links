@@ -23,3 +23,28 @@ body {
 header.main {
   color: chocolate;
 }
+
+a {
+  text-decoration: none;
+  padding: 2px 1px;
+}
+
+a:link {
+  /* background: rgb(182, 196, 106); */
+  color: rgb(14, 108, 185);
+}
+
+a:visited {
+  color: red;
+}
+
+a:focus,
+a:hover {
+  background: #06b5bb;
+  border-bottom: 2px solid;
+}
+
+a:active {
+  background: rgb(154, 185, 14);
+  border-bottom: 2px solid;
+}
